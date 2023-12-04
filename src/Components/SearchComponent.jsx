@@ -58,7 +58,7 @@ const SearchComponent = () => {
       }
       query = query + "parentResourceId=" + parentResourceId;
     }
-    axios.get("http://3.111.57.188:3000/api/logs/filter" + query, {
+    axios.get("http://13.233.100.252:3000/api/logs/filter" + query, {
       headers: {
         'Content-Type': 'application/json',
       }
@@ -87,7 +87,7 @@ const SearchComponent = () => {
       }
       query = query + "endTimestamp=" + endTimestamp;
     }
-    axios.get("http://3.111.57.188:3000/api/logs/filter" + query, {
+    axios.get("http://13.233.100.252:3000/api/logs/filter" + query, {
       headers: {
         'Content-Type': 'application/json',
       }

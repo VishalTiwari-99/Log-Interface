@@ -10,7 +10,7 @@ const ListLogsComponents = () => {
     }, []);
 
     const getAllLogs = () => {
-        axios.get("http://3.111.57.188:3000/api/logs", {
+        axios.get("http://13.233.100.252:3000/api/logs", {
             headers:{
                 'Content-Type':'application/json',
             }
